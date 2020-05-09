@@ -1,0 +1,33 @@
+
+    if (style1.backgroundColor == 'rgb(255, 255, 255)') {
+        obj.style.backgroundColor = '#f2f2f2';
+        console.log(obj.style.backgroundColor);
+        return;
+    }
+    if (obj.style.backgroundColor == '#f2f2f2') {
+        obj.style.backgroundColor = '#d9d9d9';
+    }
+    if (obj.style.backgroundColor == '#d9d9d9') {
+        obj.style.backgroundColor = '#bfbfbf';
+    }
+    else if (obj.style.backgroundColor == '#bfbfbf') {
+        obj.style.backgroundColor = '#a6a6a6';
+    }
+    else if (obj.style.backgroundColor == '#a6a6a6') {
+        obj.style.backgroundColor = '#8c8c8c';
+    }
+    else if (obj.style.backgroundColor == '#8c8c8c') {
+        obj.style.backgroundColor = '#737373';
+    }
+    else if (obj.style.backgroundColor == '#737373') {
+        obj.style.backgroundColor = '#595959';
+    }
+    else if (obj.style.backgroundColor == '#595959') {
+        obj.style.backgroundColor = '#404040';
+    }
+    else if (obj.style.backgroundColor == '#404040') {
+        obj.style.backgroundColor = '#262626';
+    }
+    else if (obj.style.backgroundColor == '#262626') {
+        obj.style.backgroundColor = '#000000';
+    }
